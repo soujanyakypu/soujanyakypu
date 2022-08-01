@@ -1,0 +1,121 @@
+body {
+  background-color: #ffffff;
+  margin: auto;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 10% 10%;
+}
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  height: 20vh;
+  min-width: 100vh;
+  /* width: 100vh; */
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
+nav .list {
+  position: relative;
+  flex: 2;
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+nav .button-group {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .navbar-container {
+  height: 100%;
+  width: 100%;
+}
+.navbar-container {
+  height: 40%;
+}
+
+.hero-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100vh;
+}
+.hero-container-right {
+  display: flex;
+  flex: 0.5;
+  min-height: 100%;
+}
+.hero-container img {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  height: 50%;
+}
+
+.hero-container-right h1 {
+  display: block;
+  position: absolute;
+  top: 250px;
+  right: -100px;
+  font-size: 35px;
+}
+.hero-container-right p {
+  position: absolute;
+  top: 300px;
+  right: -1100px;
+}
+.button-email {
+  display: block;
+  position: absolute;
+  top: 400px;
+  right: -90px;
+  width: 200px;
+}
+.button-join {
+  display: block;
+  position: absolute;
+  top: 400px;
+  right: -180px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.square img {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  height: 30%;
+}
+.globe img {
+  position: absolute;
+  top: 160px;
+  left: 350px;
+  height: 10%;
+}
+.star img {
+  position: absolute;
+  top: 170px;
+  left: 650px;
+  height: 8%;
+}
+.icons img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -30px;
+  left: 550px;
+  height: 10%;
+}
